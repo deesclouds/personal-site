@@ -1,7 +1,7 @@
-# Personal Site
-This is my personal site that currently has the html content available for view.
+# My Personal Site
+This is my personal portfolio site.
 
-**Link to project:** [personal-site-link]
+**Link to personal site:** [https://www.deesclouds.world]
 
 ![alt tag](image-here)
 
