@@ -16,9 +16,4 @@ None
 
 ## Lessons Learned:
 
-Doesn't matter if you have to start over sometimes. As long as you are happy with the results enough that you are proud enough to display them with your name attached. Nothing is ever complete but a work in progress.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-Work in progress
+Doesn't matter if you have to start over sometimes. As long as you are happy with the results enough that you are proud enough to display them with your name attached. Nothing is ever complete everything is always a work in progress.
