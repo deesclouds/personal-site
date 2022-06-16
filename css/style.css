@@ -75,6 +75,7 @@ justify-content: space-evenly;
     text-align: center;
     border: .1px solid white;
     color: white;
+    background-color: radial-gradient(#2D5EC6 3%, transparent 0%);
     width: 10%;
     border-radius: 10px;
     padding: 20px;
