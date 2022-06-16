@@ -1,4 +1,4 @@
-Box Model Hack
+/* Box Model Hack */
 *{
     box-sizing: border-box;
 }
