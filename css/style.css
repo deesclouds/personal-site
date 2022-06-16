@@ -70,7 +70,7 @@ display: flex;
 justify-content: space-evenly;
 }
 
-footer ul > li{
+/* nav ul > li, footer ul > li{
     text-transform: uppercase;
     text-align: center;
     border: .1px solid white;
