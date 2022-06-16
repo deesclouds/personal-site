@@ -15,62 +15,91 @@ Box Model Hack
 
 .clear {
    clear: both;
-}
+} 
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 body{
+    background-image: radial-gradient(#2D5EC6 3%, transparent 0%), radial-gradient(#2D5EC6 3%, transparent 0%);
+    background-color: hsl(240, 24%, 28%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+} 
 
 /******************************************
 /* MAIN LAYOUT
 /*******************************************/
+#home p, #about p, #work-container p, #gallery-container .projects, #contact p, #contact ul{
+   margin: auto;
+   padding: auto;
+   max-width: 25%;
+   background-color:#f195ac63;
+}
 
-/*******************************************/
-/* PROJECT DESCRIPTION */
-/*******************************************/
 
-/*******************************************/
-/* BUTTONS */
-/*******************************************/
+h1,h2,h3,h4{
+    font-family: 'Zen Loop', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    color: #f195ac;
+    padding-top: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+}
+h2,h3,h4,h5{
+    font-size: 52px;
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
 
-/*******************************************/
-/* Social Icons & logo*/
-/*******************************************/
+footer ul{
+display: flex;
+justify-content: space-evenly;
+}
 
-/*******************************************/
-/* LINKS */
-/*******************************************/
+footer ul > li{
+    text-transform: uppercase;
+    text-align: center;
+    border: .1px solid white;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
 
-/*******************************************/
-/* ABOUT ME & PROJECT SECTION */
-/*******************************************/
+a{
+    color: #f195ac;
+}
 
-/*******************************************/
-/* Headshot Container*/
-/*******************************************/
 .headshot {
-  width: 300px;
-  margin: auto;
-  clip-path: circle();
+    width: 300px;
+    margin: auto;
+    height: auto;
+    clip-path: circle(32.3% at 50% 57%);
 }
 
 .headshot-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-
-
-/*******************************************/
-/* PROJECT SECTION */
-/*******************************************/
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+li{
+    list-style-type: none;
+}
