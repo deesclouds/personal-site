@@ -31,11 +31,10 @@ body{
 /******************************************
 /* MAIN LAYOUT
 /*******************************************/
-#home p, #about p, #work-container p, #gallery-container .projects, #contact p, #contact ul{
+#home p, #about p, #work p, #gallery-container .projects, #contact p, #contact ul{
    margin: auto;
-   padding: auto;
+   padding: 0;
    max-width: 25%;
-   background-color:#f195ac63;
 }
 
 
