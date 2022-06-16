@@ -65,7 +65,7 @@ p{
     text-align: center;
 }
 
-footer ul{
+nav ul, footer ul{
 display: flex;
 justify-content: space-evenly;
 }
