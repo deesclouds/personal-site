@@ -108,6 +108,7 @@ nav ul {
   justify-content: space-evenly;
 }
 #social-links > ul {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
