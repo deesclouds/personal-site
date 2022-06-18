@@ -35,7 +35,6 @@ body {
 #home p,
 #about p,
 #work p,
-#gallery-container .projects,
 #contact p,
 #contact ul {
   margin: auto;
@@ -43,10 +42,21 @@ body {
   max-width: 25%;
 }
 
-#gallery-container.gradient-border{
+.projects{
     width: 70%;
-    height: 25%;
-    margin: auto;
+    height: 50%;
+    margin: 60px auto;
+}
+
+#projects{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(240, 24%, 28%, 0.702);
+}
+
+#gallery-container{
+    width: 50%;
+    height: 50%;
 }
 
 h1,
