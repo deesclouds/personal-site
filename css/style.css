@@ -39,16 +39,18 @@ body {
 #contact ul {
   margin: auto;
   padding: 0;
-  max-width: 25%;
 }
 
 #home p {
   max-width: 60%;
 }
 
-#about p,
-#work p {
+#about p{
   max-width: 69%;
+}
+
+#about p{
+    font-size: 22px;
 }
 
 #contact p {
@@ -78,21 +80,21 @@ h4 {
   font-family: "Zen Loop", cursive;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 70px;
   color: #ff9eb6;
   padding-top: 20px;
-  margin: 0;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-h2,
-h3,
-h4,
-h5 {
-  font-size: 52px;
+h1{
+    font-size: 80px;
 }
+h2, h3, h4, h5{
+    font-size: 70px;
+    margin-top: 40px;
+}
+
 p,
 a {
   font-family: "Comfortaa", cursive;
