@@ -103,7 +103,6 @@ nav ul {
 
 .gradient-border {
   --borderWidth: 3px;
-  background-image: ;
   background: hsla(240, 24%, 28%, 0.702);
   position: relative;
   border-radius: var(--borderWidth);
@@ -151,7 +150,7 @@ a {
 
 /* Headshot Experiment */
 .headshot-container {
-  height: 60vh;
+  height: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
