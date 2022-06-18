@@ -43,6 +43,12 @@ body {
   max-width: 25%;
 }
 
+#gallery-container.gradient-border{
+    width: 70%;
+    height: 25%;
+    margin: auto;
+}
+
 h1,
 h2,
 h3,
