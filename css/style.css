@@ -118,8 +118,11 @@ a {
 
 nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 10px;
+  height: 92px;
 }
+
 #social-links > ul {
   margin-top: 50px;
   display: flex;
