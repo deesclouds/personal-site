@@ -27,11 +27,22 @@ body {
   background-position: 0 0, 50px 50px;
   background-size: 100px 100px;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /******************************************
 /* MAIN LAYOUT
 /*******************************************/
+header, footer{
+    background-image: url(../assets/github-banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: 0cm -43cm;
+    margin: 0;
+    padding: 0;
+}
+
 #home p,
 #about p,
 #work p,
