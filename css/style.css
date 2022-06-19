@@ -134,7 +134,7 @@ nav ul {
 /* Gradient Border */
 
 .gradient-border {
-  --borderWidth: 3px;
+  --borderWidth: 8px;
   background: hsla(240, 24%, 28%, 0.702);
   position: relative;
   border-radius: var(--borderWidth);
