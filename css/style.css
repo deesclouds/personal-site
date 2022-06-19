@@ -272,10 +272,9 @@ footer a{
 /*******************************************/
 nav ul > li,
 a {
-  padding: 17px;
+  padding: 25px;
   list-style-type: none;
   text-decoration: none;
-  /* clip-path: ellipse(50px 60px at 0 10% 20%); */
 }
 
 .socials {
