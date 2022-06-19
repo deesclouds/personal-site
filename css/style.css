@@ -284,5 +284,5 @@ a {
 .footer {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  margin: 40px;
 }
