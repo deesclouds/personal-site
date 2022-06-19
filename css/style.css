@@ -177,7 +177,12 @@ nav ul {
 
 a {
   color: #ff9eb6;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+footer a{
+    color: hsla(240, 24%, 28%, 1);
+    font-size: 36px;
 }
 
 /* Headshot Experiment */
