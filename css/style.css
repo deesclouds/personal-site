@@ -138,6 +138,8 @@ nav ul {
   background: hsla(240, 24%, 28%, 0.702);
   position: relative;
   border-radius: var(--borderWidth);
+  -moz-border-radius: calc(2 * var(--borderWidth));
+  -webkit-border-radius: calc(2 * var(--borderWidth));
 }
 .gradient-border:after {
   content: "";
@@ -158,6 +160,8 @@ nav ul {
     #6fba82
   );
   border-radius: calc(2 * var(--borderWidth));
+  -moz-border-radius: calc(2 * var(--borderWidth));
+  -webkit-border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
   animation: animatedgradient 30s ease alternate infinite;
   background-size: 300% 300%;
@@ -224,6 +228,8 @@ footer a{
   height: 100%;
   transition: border-radius 1s ease-out;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  -moz-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  -webkit-border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
   animation: morph 8s ease-in-out infinite both alternate;
   position: absolute;
   overflow: hidden;
@@ -255,9 +261,13 @@ footer a{
 @keyframes morph {
   0% {
     border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    -moz-border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    -webkit-border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
   }
   100% {
     border-radius: 40% 60%;
+    -moz-border-radius:  40% 60%;
+    -webkit-border-radius:  40% 60%;
   }
 }
 
