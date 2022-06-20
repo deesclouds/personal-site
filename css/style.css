@@ -34,13 +34,14 @@ body {
 /******************************************
 /* MAIN LAYOUT
 /*******************************************/
-header, footer{
-    background-image: url(../assets/github-banner.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position: 0cm -43cm;
-    margin: 0;
-    padding: 0;
+header,
+footer {
+  background-image: url(../assets/github-banner.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: 0cm -43cm;
+  margin: 0;
+  padding: 0;
 }
 
 #home p,
@@ -56,12 +57,12 @@ header, footer{
   max-width: 60%;
 }
 
-#about p{
+#about p {
   max-width: 69%;
 }
 
-#about p{
-    font-size: 22px;
+#about p {
+  font-size: 22px;
 }
 
 #contact p {
@@ -97,13 +98,16 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
-h1{
-    font-size: 80px;
-    margin-top: 20px;
+h1 {
+  font-size: 80px;
+  margin-top: 20px;
 }
-h2, h3, h4, h5{
-    font-size: 70px;
-    margin-top: 40px;
+h2,
+h3,
+h4,
+h5 {
+  font-size: 70px;
+  margin-top: 40px;
 }
 
 p,
@@ -138,8 +142,6 @@ nav ul {
   background: hsla(240, 24%, 28%, 0.702);
   position: relative;
   border-radius: var(--borderWidth);
-  -moz-border-radius: calc(2 * var(--borderWidth));
-  -webkit-border-radius: calc(2 * var(--borderWidth));
 }
 .gradient-border:after {
   content: "";
@@ -160,8 +162,6 @@ nav ul {
     #6fba82
   );
   border-radius: calc(2 * var(--borderWidth));
-  -moz-border-radius: calc(2 * var(--borderWidth));
-  -webkit-border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
   animation: animatedgradient 30s ease alternate infinite;
   background-size: 300% 300%;
@@ -184,9 +184,9 @@ a {
   font-size: 30px;
 }
 
-footer a{
-    color: hsla(240, 24%, 28%, 1);
-    font-size: 36px;
+footer a {
+  color: hsla(240, 24%, 28%, 1);
+  font-size: 36px;
 }
 
 /* Headshot Experiment */
@@ -228,9 +228,7 @@ footer a{
   height: 100%;
   transition: border-radius 1s ease-out;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  -moz-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  -webkit-border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
-  animation: morph 8s ease-in-out infinite both alternate;
+  animation: morph 8s ease-in-out infinite both alternate;                         
   position: absolute;
   overflow: hidden;
   z-index: 5;
@@ -261,13 +259,9 @@ footer a{
 @keyframes morph {
   0% {
     border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
-    -moz-border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
-    -webkit-border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
   }
   100% {
     border-radius: 40% 60%;
-    -moz-border-radius:  40% 60%;
-    -webkit-border-radius:  40% 60%;
   }
 }
 
