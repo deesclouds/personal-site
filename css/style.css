@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Box Model Hack */
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* Clear fix hack */
@@ -21,6 +29,8 @@
 /* BASE STYLES
 /*******************************************/
 body {
+  background-image: -o-radial-gradient(#2d5ec6 3%, transparent 0%),
+    -o-radial-gradient(#2d5ec6 3%, transparent 0%);
   background-image: radial-gradient(#2d5ec6 3%, transparent 0%),
     radial-gradient(#2d5ec6 3%, transparent 0%);
   background-color: hsl(240, 24%, 28%);
@@ -94,9 +104,16 @@ h4 {
   font-weight: 400;
   color: #ff9eb6;
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 h1 {
   font-size: 80px;
@@ -121,17 +138,27 @@ a {
 }
 
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 10px;
   height: 92px;
 }
 
 #social-links > ul {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 8%;
 }
 
@@ -150,6 +177,17 @@ nav ul {
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
+  background: -o-linear-gradient(
+    30deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
   background: linear-gradient(
     60deg,
     #f79533,
@@ -163,8 +201,21 @@ nav ul {
   );
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
-  animation: animatedgradient 30s ease alternate infinite;
+  -webkit-animation: animatedgradient 30s ease alternate infinite;
+          animation: animatedgradient 30s ease alternate infinite;
   background-size: 300% 300%;
+}
+
+@-webkit-keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes animatedgradient {
@@ -192,9 +243,15 @@ footer a {
 /* Headshot Experiment */
 .headshot-container {
   height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
 }
 
@@ -212,23 +269,29 @@ footer a {
     right: 0;
     border-radius: 50%;
     border: 1px dashed rgba(255, 255, 255, 0.4);
-    transform: scale(1.42);
+    -webkit-transform: scale(1.42);
+        -ms-transform: scale(1.42);
+            transform: scale(1.42);
   }
 }
 
 .spin-container {
   width: 100%;
   height: 100%;
-  animation: spin 12s linear infinite;
+  -webkit-animation: spin 12s linear infinite;
+          animation: spin 12s linear infinite;
   position: relative;
 }
 
 .shape {
   width: 100%;
   height: 100%;
+  -webkit-transition: border-radius 1s ease-out;
+  -o-transition: border-radius 1s ease-out;
   transition: border-radius 1s ease-out;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  animation: morph 8s ease-in-out infinite both alternate;                         
+  -webkit-animation: morph 8s ease-in-out infinite both alternate;
+          animation: morph 8s ease-in-out infinite both alternate;                         
   position: absolute;
   overflow: hidden;
   z-index: 5;
@@ -243,17 +306,32 @@ footer a {
   background: url(../assets/headshot1.jpg);
   background-size: 136%;
   background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #003;
   font-size: 5vw;
   font-weight: bold;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   text-transform: uppercase;
   animation: spin 12s linear infinite reverse;
   opacity: 1;
   z-index: 2;
+}
+
+@-webkit-keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
 }
 
 @keyframes morph {
@@ -265,9 +343,17 @@ footer a {
   }
 }
 
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 @keyframes spin {
   to {
-    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
   }
 }
 
@@ -286,7 +372,11 @@ a {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 40px;
 }
