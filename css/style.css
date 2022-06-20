@@ -308,7 +308,6 @@ footer a {
   background-position: top center;
   display: -webkit-box;
   display: -ms-flexbox;
-  -webkit-filter: blur(.5px);
   display: flex;
   color: #003;
   font-size: 5vw;
