@@ -7,7 +7,7 @@ This is my personal portfolio site.
 
 ## How It's Made:
 
-**Tech used:** HTML
+**Tech used:** HTML, CSS
 
 Started building out the content of my personal site with HTML.
 
