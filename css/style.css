@@ -398,6 +398,10 @@ a {
   list-style: none;
 }
 
+.fa-linkedin, .fa-twitter, .fa-envelope, .fa-github{
+  font-size: 60px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
