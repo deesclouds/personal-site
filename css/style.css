@@ -405,5 +405,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          align-items: center;
   margin: 40px;
+  height: 125px;
 }
