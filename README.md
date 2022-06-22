@@ -12,7 +12,7 @@ This is my personal portfolio site.
 Started building out the content of my personal site with HTML.
 
 ## Optimizations
-None
+I removed spin from the image to improve the accessibility of the web app from 94 to 100.
 
 ## Lessons Learned:
 
