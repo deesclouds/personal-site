@@ -1,3 +1,4 @@
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -9,8 +10,13 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+          margin: 0;
+          padding: 0;
 }
 
+html{
+  font-size: 62.5%;
+}
 /* Clear fix hack */
 .clearfix:after {
   content: ".";
@@ -44,6 +50,27 @@ body {
 /******************************************
 /* MAIN LAYOUT
 /*******************************************/
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger{
+  display: none;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ff9eb6;
+}
+.main{
+  display: flex;
+}
 header,
 footer {
   background-image: url(../assets/github-banner.jpg);
@@ -320,7 +347,7 @@ footer a {
           justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  animation: spin 12s linear infinite reverse;
+  /* animation: spin 12s linear infinite reverse; */
   opacity: 1;
   z-index: 2;
 }
