@@ -21,4 +21,4 @@ Doesn't matter if you have to start over sometimes. As long as you are happy wit
 I had difficulty with the CSS animations rendering and a good resource [autoprefixer.github.io] was mentioned to use for help parsing through the CSS and adding vendor prefixes. 
 
 ## Thank you!
-I want to say thank you to @ladybugsxoxo, @pcabezal, @hondurancoder @joah @Jimbo C. for helping me in ways and just with our interaction helped me to open a part of my brain and figure some things out. 
+I want to say thank you to @ladybugsxoxo, @pcabezal, @hondurancoder @joah @Jimbo C. for helping me in ways and just with our interaction helped me to open a part of my brain and figure some things out. Big thank you to @meliboi_ for steering my away from using a carousel for this site.
