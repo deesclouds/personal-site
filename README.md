@@ -9,7 +9,7 @@ This is my personal portfolio site.
 
 **Tech used:** HTML, CSS
 
-Started building out the content of my personal site with HTML.
+Started thinking about the intention my design before I started building out the content for my personal site with HTML. My focus was to improve SEO, Accessibility and Performance. At this time of writing this my site has a load time of 1.90s, DOMContentLoaded 1.40s and Finish time of 2.04s. 
 
 ## Optimizations
 I removed spin from the image to improve the accessibility of the web app from 94 to 100.
