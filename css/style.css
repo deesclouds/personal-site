@@ -54,19 +54,6 @@ ul{
   justify-content: center;
 }
 
-.hamburger{
-  display: none;
-}
-
-.bar{
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #ff9eb6;
-}
 .main{
   display: flex;
 }
@@ -81,11 +68,39 @@ footer {
 }
 
 @media screen and (max-width: 992px){
-  header {
-    display:none;
+  .nav-menu {
+    display:hidden;
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    width: ;
   }
+  .hamburger{
+    min-width: 1rem;
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ff9eb6;
+  }
+  #home p {
+    max-width: 50%;
+  }
+  
   /* hamburger menu to display here and have a drop down menu for the nav links */
 }
+/* @media screen and (min-width: 993px){
+  .hamburger{
+    display: none;
+  }
+} */
 
 #home p,
 #about p,
