@@ -80,6 +80,13 @@ footer {
   padding: 0;
 }
 
+@media screen and (max-width: 992px){
+  header {
+    display:none;
+  }
+  /* hamburger menu to display here and have a drop down menu for the nav links */
+}
+
 #home p,
 #about p,
 #work p,
