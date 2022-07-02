@@ -3,8 +3,6 @@ This is my personal portfolio site.
 
 **Link to personal site:** [https://www.deesclouds.world]
 
-![alt tag](image-here)
-
 ## How It's Made:
 
 **Tech used:** HTML, CSS
