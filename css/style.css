@@ -483,7 +483,17 @@ a {
   list-style: none;
   max-width: 25%;
 }
-
+.resume {
+  color: white;
+  width: 11rem;
+  height: 5rem;
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 4rem;
+  background-color: #ff9eb6;
+  font-family: "Zen Loop", cursive;
+  font-variant: all-small-caps;
+}
 .fa-linkedin, .fa-twitter, .fa-envelope, .fa-github{
   font-size: 60px;
 }
