@@ -11,6 +11,7 @@ Started thinking about the intention my design before I started building out the
 
 ## Optimizations
 I removed spin from the image to improve the accessibility of the web app from 94 to 100.
+Added a resume button to navigate to resume page. 
 
 ## Lessons Learned:
 
