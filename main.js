@@ -19,11 +19,6 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
-const scrollSection = function () {
-  aboutSection.scrollIntoView({ behavior: "smooth" });
-  console.log("worked");
-};
-
 allLinks.forEach(function (e) {
   e.addEventListener("click", function (e) {
     const scrollInto = e.target.getAttribute("data-scroll");
