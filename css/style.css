@@ -174,7 +174,8 @@ footer {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.resume h1 {
   font-family: "Zen Loop", cursive;
   text-transform: uppercase;
   font-weight: 400;
@@ -454,6 +455,21 @@ a {
 .fa-envelope,
 .fa-github {
   font-size: 35px;
+
+.resume {
+  color: white;
+  width: 11rem;
+  height: 5rem;
+  font-weight: 500;
+  border-radius: 40px;
+  font-size: 4rem;
+  background-color: #ff9eb6;
+  font-family: "Zen Loop", cursive;
+  font-variant: all-small-caps;
+}
+.resume-container{
+  height: 10rem;
+  width: auto;
 }
 
 .footer {
