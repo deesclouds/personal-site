@@ -129,6 +129,9 @@ footer {
 #about p {
   font-size: 2rem;
 }
+.section-container {
+  background:  hsla(240, 24%, 28%, 0.702);
+}
 
 #contact p {
   max-width: 45%;
@@ -477,7 +480,6 @@ a {
   color: #ff9eb6;
   text-transform: uppercase;
   letter-spacing: 1.75px;
-
   font-size: 1.5rem;
   padding: 10px 30px;
   margin: 45px 0px 20px 0px;
@@ -487,11 +489,18 @@ a {
   align-items: center;
 }
 
+.resume-btn > a{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 .resume-btn:hover {
-  background-color: #ff9eb6;
+  background: hsla(240, 24%, 28%, 0.702);
   color: white;
   transform: translateY(-2px);
   transition: all 0.2s ease;
+ 
 }
 .resume-btn:active {
   transform: translateY(1px);
