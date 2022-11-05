@@ -483,6 +483,8 @@ a {
   margin: 45px 0px 5px 0px;
   cursor: pointer;
   border: none;
+  border-radius: 20px;
+  align-items: center;
 }
 
 .resume-btn:hover {
