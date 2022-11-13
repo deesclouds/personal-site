@@ -156,7 +156,7 @@ footer {
   background-color: hsla(240, 24%, 28%, 0.702);
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 #projects > a {
