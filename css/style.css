@@ -155,7 +155,8 @@ footer {
   width: 100%;
   background-color: hsla(240, 24%, 28%, 0.702);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
