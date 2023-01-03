@@ -49,11 +49,11 @@
         <h4 class="contact">Contact</h4>
         <div class="section-container">
             <!-- Contact Form -->
-            <form class="gradient-border">
-                <input name="name" type="text" class="feedback-input" placeholder="Name" />
-                <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                <input type="submit" value="SUBMIT" />
+            <form class="gradient-border" id="contact-form" method="POST">
+                <input name="name" type="text" class="feedback-input" placeholder="Name" aria-label="name"/>
+                <input name="email" type="text" class="feedback-input" placeholder="Email" aria-label="email"/>
+                <textarea name="text" class="feedback-input" placeholder="Comment" aria-label="comment"></textarea>
+                <input type="submit" value="SUBMIT" aria-label="submit"/>
             </form>
         </div>
 
