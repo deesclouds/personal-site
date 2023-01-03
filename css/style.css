@@ -178,7 +178,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Zen Loop", cursive;
+  font-family: "Zen Loop", cursive, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   color: #ff9eb6;
@@ -208,7 +208,7 @@ h5 {
 
 p,
 a {
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", cursive, sans-serif;
   font-size: 2rem;
   font-weight: 300;
   line-height: 40px;
