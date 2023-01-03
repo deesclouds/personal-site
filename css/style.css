@@ -162,12 +162,10 @@ footer {
 
 #projects > a {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  overflow: none;
-
+  align-items: baseline;
   height: 100%;
-
   overflow: hidden;
 }
 #gallery-container {
