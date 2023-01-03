@@ -561,6 +561,9 @@ a {
   #home p {
     max-width: 50%;
   }
+  #resume{
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 480px) {
