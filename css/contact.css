@@ -44,3 +44,6 @@ textarea {
 }
 [type="submit"]:hover { background:#6fba82; }
 
+#thankyou{
+  padding-top: 3.5rem;
+}
