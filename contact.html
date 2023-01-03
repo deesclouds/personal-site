@@ -47,10 +47,22 @@
         <h4 class="contact">Contact</h4>
         <div class="section-container">
             <!-- Contact Form -->
-            <form class="gradient-border" id="contact-form" method="POST">
-                <input name="name" type="text" class="feedback-input name" placeholder="First and Last Name" aria-label="First and Last Name"/>
-                <input name="email" type="text" class="feedback-input email" placeholder="Email" aria-label="email"/>
-                <textarea name="text" class="feedback-input comment" placeholder="Comment" aria-label="comment"></textarea>
+            <form action ="https://formsubmit.co/simplelogin.8yy2o@simplelogin.com" method="POST" class="gradient-border" id="contact-form">
+                <!-- Email Subject -->
+                <input type="hidden" name="subject" value="Portfolio Site - Contact Form Submission!">
+                <!-- Name Input -->
+                <input name="name" type="text" class="feedback-input name" placeholder="First and Last Name" aria-label="First and Last Name" required/>
+                <!-- Auto Response -->
+                <input type="hidden" name="_autoresponse" value="Thank you for your message!">
+                <!-- Honeypot to avoid spam and fool scrapers -->
+                <input type="text" name="_honey" style="display:none">
+                <!-- Email Input -->
+                <input name="email" type="text" class="feedback-input email" placeholder="Email" aria-label="email" required/>
+                <!-- Message Input -->
+                <textarea name="text" class="feedback-input comment" placeholder="I would like to ask you..." aria-label="Write Message Here" required></textarea>
+                <!-- Redirects to Thankyou page -->
+                <input type="hidden" name="_next" value="https://deesclouds.world/pages/thanks.html">
+                <!-- Submit Button -->
                 <input type="submit" value="SUBMIT" aria-label="submit"/>
             </form>
         </div>
@@ -71,7 +83,7 @@
                     <i class="fa-brands fa-linkedin"></i></a>
             </li>
 
-            <li class="socials email" style="color: #ff9eb6; font-size:40px"><a href="mailto:davis.d711@proton.me"><i
+            <li class="socials email" style="color: #ff9eb6; font-size:40px"><a href="mailto:simplelogin.8yy2o@simplelogin.com"><i
                         class="fa-solid fa-envelope" title="Email Me" target="_blank"></i></a></li>
 
             <li class="socials github" style="color: #ff9eb6; font-size: 40px"><a
@@ -85,7 +97,6 @@
     <footer>
         <a class="footer" href="#header"><i class="fa-regular fa-square-caret-up"></i><span>Return to top</span></a>
     </footer>
-    <script src="js/contact.js"></script>
     <script src="js/main.js"></script>
 
 
